@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--start of homepage-->
+    <div id="homepage">
+        <div class="head">
+            <div class="logo">
+                <h2>MikeSoftTech.org</h2>
+            </div>
+            <!--start of nav-->
+            <nav>
+       <!--start of sidebar-->
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><img src="images/icons8-arrow-30 (1).png" alt="" height="26px" width="26px"></li>
+                    
+                    <li class="active"><a href="#homepage">Home</a></li>
+                    <li><a href="">Services</a>
+                         <!--start of dropdownlist-->
+                        <div class="sub-menu-1">
+                            <ul>
+                               
+                              
+                                <li class="otherlists">Online Services
+                                   
+                                         <div class="sub-menu-2">
+                                                <ul class="submenus-menus">
+                                                    <li>KRA application</li>
+                                                    <li>NHIF application</li>
+                                                    <li>NSSF application</li>
+                                                    <li>HELB application</li>
+                                                    <li>Internet Browsing</li>
+                                                </ul>
+                                            </div>
+                                 
+                                   
+                                </li>
+                                <li><a href="">Selling Mobile & Computer Devices</a></li>
+                                <li>Graphics & Design</li>
+                                <li>Website Creation</li>
+                                <li>App Creation/li>
+                                <li>Online marketing</li>
+                                
+                            </ul>
+                        </div>
+                         <!--end of dropdownlist-->
+                    </li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a>
+                </ul>
+        
+        <!--end of contactpage-->
+        
+        
+        
+                <ul> 
+                     
+                    <li class="hideOnMobile"><a href="#homepage">Home</a></li>
+                    <li class="hideOnMobile"><a href="">Services</a>
+                         <!--start of dropdownlist-->
+                        <div class="sub-menu-1">
+                            <ul>
+                                
+
+                               
+                                <li class="otherlists">Online Services
+                                    
+                                        <div class="sub-menu-2">
+                                               <ul class="submenus-menus">
+                                                   <li>KRA application</li>
+                                                   <li>NHIF application</li>
+                                                   <li>NSSF application</li>
+                                                   <li>HELB application</li>
+                                                   <li>Internet Browsing</li>
+                                               </ul>
+                                         </div>
+                                   
+                                </li>
+                                <li><a href="">Selling Mobile & Computer Devices</a></li>
+                                <li>Graphics And Design</li>
+                                <li>Web Design & development</li>
+                                <li>Creating Mobile Applications</li>
+                                <li>Online marketing</li>
+                                
+                            </ul>
+                        </div>
+                         <!--end of dropdownlist-->
+                    </li>
+                    <li class="hideOnMobile"><a href="">About Us</a> </li>
+                    <li class="hideOnMobile"><a href="#blogpage">Blog</a></li>
+                    <li class="menubutton" onclick="showsideBar()"><img src="images/icons8-menu-30.png" alt="" height="26px" width="26px"> </li>
+                </ul>
+            </nav>
+            <!--end of nav-->
+        </div>
+        
+    <!--end of homepage-->
+
+    <!--start of information part-->
+    <div class="information">
+        
+        <div class="containerleft">
+           <div class="content">
+                <h1>We Are MikeSoftTech.org</h1>
+                <p>Book us now and enjoy our services us we are empowered to deliver.</p>
+                <button>Call Us Now!</button>
+           </div>
+           <div class="socialmedia">
+            <p>Talk to us through our social media accounts</p>
+                 <a href=""><img src="images/social-media-facebook-1.png" alt=""></a>
+                 <a href=""><img src="images/messaging-whatsapp.png" alt=""></a>
+                 <a href=""><img src="images/twitter.png" alt=""></a>
+                 <a href=""><img src="images/social-instagram.png" alt=""></a>
+                 <a href=""></a><img src="images/social-video-youtube-clip.png" alt="">
+                 
+            <p>&copy 2024 All rights preserved.</p>     
+           </div>
+        </div>
+        <div class="containerright">
+            <h2>We Provide Solutions To The Real World</h2>
+            <div class="imagetop">
+                <img src="images/blog2.png" alt="">
+                <img src="images/blog2.png" alt="">
+                
+            </div>
+            <div class="imagebottom">
+                <img src="images/blog2.png" alt="">
+                <img src="images/blog2.png" alt="">
+            </div>
+    
+        </div>
+        
+    </div>
+
+    </div>
+
+     <!--end of information part-->
+
+  
+
+
+<!--start of footer-->
+  <footer>
+     <div class="foot">
+        <div class="ft">
+            <h2>MikeSoftTech.org</h2>
+            <p>FL Mwindi Mbiu Street</p>
+            <p>mikesoftcybercafe@gmail.com</p>
+            <p>0759104244</p>
+
+        </div>
+        <div class="ft">
+            <h5>Useful Links</h5>
+            <a href="#homepage"><p>Homepage</p></a>
+            <a href="mission.html"><p>About Us</p></a>
+            <a href=""><p>Help</p></a>
+            <a href="#contactus"><p>Contact Us</p></a>
+            
+        </div>
+        <div class="ft">
+            <h5>Help & Information</h5>
+            <p>Shipping</p>
+            <p>Tracking Id</p>
+            <p>Help</p>
+            <p>FAQS</p>
+            
+        </div>
+     </div>
+     <div class="bottomfoot">
+        <p>@copy 2024 All Rights reserved. </p>
+        <p>Designed by: MikeSoftTech.org</p>
+        <p></p>
+     </div>
+  </footer>
+  <!--end of footer-->
+
+<!--javascript codes-->
+  <script>
+    function showsideBar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    } 
+    
+
+</script>
+
+   
+
+ <!--javascript codes-->   
+
+</body>
+</html>
